@@ -1,0 +1,77 @@
+/*Configuração Geral*/
+*{
+
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    color: #000; 
+}
+/*configuração do Body Img, centralização*/
+
+body{
+
+    background-image: url("../img/login_2.jpg");
+    background-size: cover;
+}
+
+/*Formulário de login*/
+
+.login-container{
+
+    background-color: #fff;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 400px;
+    padding: 20px;
+    margin-top: 10vh;
+    border-radius: 6px;
+    text-align: center;
+}
+/*Texto de Login*/
+
+h3{
+    padding: 16px;
+    font-size: 20px;
+}
+
+label, input{
+
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-top: 6px;
+    
+}
+
+input{
+
+    border: 2px solid #4B0082;
+    border-radius: 26px;
+    padding: 10px;
+}
+
+a{
+    display: block;
+    margin-top: 10px;
+}
+
+input[type="submit"]{
+
+    color: white;
+    background-color: #4B0082;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 32px;
+    border: 2px solid #4B0082;
+    margin-top: 16px;
+    cursor: pointer;
+    
+}
+
+input[type="submit"]:hover{
+
+    background-color: #8B008B;
+}
